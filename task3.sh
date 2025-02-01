@@ -8,8 +8,6 @@ read -p "Enter your favorite programming languages: " -a lang
 echo "--------------------------------------"
 echo "Summary of your information:"
 echo "--------------------------------------"
-echo "Name: $name"
-echo "ID: $id"
+echo "Name: $name, ID: $id"
 echo "Favorite programming languages: ${lang[@]}"
-echo "First language: ${lang[0]}"
-# ${lang[@]} used to print all the values of the array
+echo "First priority: ${lang[0]}"
